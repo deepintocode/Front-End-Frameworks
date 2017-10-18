@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Grids</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /*grid-column-gap: 1em;*/
+      /*grid-row-gap: 1em;*/
+      grid-gap: 1em;
+    }
+
+    .wrapper>div {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper>div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure corporis alias totam est fugiat omnis odit atque, rerum laboriosam, fuga dolorum ex, quidem harum? Quidem necessitatibus molestiae officia repellat quo aperiam consequuntur, laudantium nulla.
+      Id esse voluptas cum rem ad consequatur explicabo, culpa nemo voluptatum aut assumenda odit quo nulla distinctio reprehenderit nihil debitis, architecto ea, illo necessitatibus voluptates, porro eos quia animi omnis. Excepturi deleniti fuga rerum
+      minus eveniet, doloremque sunt soluta. Nisi provident, ratione quas qui accusantium? Pariatur!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt reiciendis placeat architecto! Incidunt suscipit, rerum quod facere ipsam. Assumenda, veniam, minima. Optio facere corporis, ut unde aliquam nemo tenetur dolor?
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure corporis alias totam est fugiat omnis odit atque, rerum laboriosam, fuga dolorum ex, quidem harum? Quidem necessitatibus molestiae officia repellat quo aperiam consequuntur, laudantium nulla.
+      Id esse voluptas cum rem ad consequatur explicabo, culpa nemo voluptatum aut assumenda odit quo nulla distinctio reprehenderit nihil debitis, architecto ea, illo necessitatibus voluptates, porro eos quia animi omnis. Excepturi deleniti fuga rerum
+      minus eveniet, doloremque sunt soluta. Nisi provident, ratione quas qui accusantium? Pariatur!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt reiciendis placeat architecto! Incidunt suscipit, rerum quod facere ipsam. Assumenda, veniam, minima. Optio facere corporis, ut unde aliquam nemo tenetur dolor?
+    </div>
+
+  </div>
+</body>
+
+</html>
